@@ -1,13 +1,22 @@
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
+import Home from "./Home";
 import './App.css';
-
 function App() {
   return (
-    <div className='cards'>
-      <h1>hola soy scarlet</h1>
-    </div>
-    
-  );
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+       
+      </Routes>
+    </Router>
+  
+  
+);
 }
 
 export default App;
