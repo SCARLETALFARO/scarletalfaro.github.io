@@ -1,4 +1,5 @@
 import Carousel from './components/Carousel';
+import ArrowRight from './components/Arrow';
 
 function Home (){
     return(
@@ -6,12 +7,12 @@ function Home (){
 
       <h1> ¡¡BIENVENIDOS!!<br /> ESTA ES MI BIOGRAFIA </h1>
       <p>Hola mi nombre es scarlet alfaro
-        <br>
-        </br>
+      
+        <br />
         tengo 27 años
-        <br>
-        </br>
+        <br />
         Tengo un hijo llamado demian.</p>
+        <a className='link-danger' href='https://www.soymas.cl/'>quieres saber mas sobre la fundacion <ArrowRight /></a>
       <Carousel />
     </div>
     )

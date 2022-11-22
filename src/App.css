@@ -9,8 +9,10 @@
   
 }
 body{
-  background: #1dcb71;
+  background:greenyellow;
 }
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
